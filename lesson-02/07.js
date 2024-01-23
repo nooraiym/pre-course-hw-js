@@ -7,7 +7,16 @@ let passportMarried = {
         city: "Bobryisk"
     }
 };
-passportMarried2.married = false;
+let passportMarried2 = {
+    name: "Petr",
+    surname: "Petrov",
+    married: false,
+    address: {
+        country: "USA",
+        city: "Bobryisk"
+    }
+};
+
 
 console.log(passportMarried); 
 console.log(passportMarried2);
