@@ -15,5 +15,5 @@ let passportWithAddress2 = {
     }
 };
 
-console.log(passportWithAddress.address.country);
-console.log(passportWithAddress2.address.country);
+console.log(passportWithAddress.address.city);
+console.log(passportWithAddress2.address.city);
