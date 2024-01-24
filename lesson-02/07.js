@@ -1,7 +1,7 @@
 let passportMarried = {
     name: "Petr",
     surname: "Petrov",
-    married: true,
+    married: '',
     address: {
         country: "USA",
         city: "Bobryisk"
@@ -9,7 +9,7 @@ let passportMarried = {
 };
 
 let passportMarried2 = passportMarried;
-passportMarried2.married = false;
+passportMarried2.married = true;
 
 console.log(passportMarried);
 console.log(passportMarried2);
